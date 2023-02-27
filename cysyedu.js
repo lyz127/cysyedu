@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         创优生涯线上课程
+// @name         cysy
 // @namespace    http://tampermonkey.net/
 // @version      1.6
-// @description  MP4
-// @author       lyz
+// @description  web/MP4
+// @author       lyz127
 // @match        *://cc.cysyedu.cn/cypy/web/*
 // @match        *://cysyedu.cn/cypy/web/*
 // @icon         http://cysyedu.cn/imges/logo.png
