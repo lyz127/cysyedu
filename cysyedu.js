@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         cysy
-// @namespace    http://tampermonkey.net/
+// @namespace    https://github.com/lyz127
 // @version      1.6
 // @description  web/MP4
 // @author       lyz127
