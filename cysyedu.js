@@ -8,6 +8,7 @@
 // @match        *://cysyedu.cn/cypy/web/*
 // @icon         http://cysyedu.cn/imges/logo.png
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 (function() {
