@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         cysy
 // @namespace    https://github.com/lyz127
-// @version      1.6
+// @version      1.6.1
 // @description  web/MP4
 // @author       lyz127
 // @match        *://cc.cysyedu.cn/cypy/web/*
@@ -26,13 +26,19 @@
       ad.html(ah);
     }
   }
+  let timer, just=()=>{
+    if (jQuery) {
+      pj();
+      clearInterval(timer);
+    }
+  };
   if (typeof jQuery == 'undefined') {
     var head = document.getElementsByTagName('head')[0];
     var script = document.createElement('script');
     script.src = "https://cdn.staticfile.org/jquery/3.6.3/jquery.min.js";
     script.type = 'text/javascript';
     head.appendChild(script);
-    setTimeout(pj, 3000);
+    timer = setInterval(just,100);
   } else {
     pj();
   }
